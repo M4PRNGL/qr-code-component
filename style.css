@@ -1,0 +1,40 @@
+:root {
+	--light-gray: hsl(212, 45%, 89%);
+	--dark-blue: hsl(218, 44%, 22%);
+	--grayish-blue: hsl(220, 15%, 55%);
+}
+* {
+	font-family: 'Outfit', sans-serif;
+	text-align: center;
+}
+body {
+	background-color: var(--light-gray);
+}
+.qr-container {
+	width: 310px;
+	height: 480px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	border-radius: 20px;
+}
+.qr-container__qr-code {
+	margin : 15px auto;
+	border-radius: 10px;
+}
+
+.qr-container__subtitle {
+	padding: 5px 20px;
+	font-size: 21.5px;
+	font-weight: 700;
+	color: var(--dark-blue); 
+}
+ 
+.qr-container__text {
+	padding: 9px 25px;
+	font-size: 15px;
+	font-weight: 400;
+	color: var(--grayish-blue);
+}
